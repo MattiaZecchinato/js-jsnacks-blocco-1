@@ -9,9 +9,16 @@ if (firstInput.length > secondInput.length) {
 
     // print the longest word
     console.log(`La parola più lunga è ${firstInput}`);
+    console.log(`La parola più corta è ${secondInput}`);
 }
-else {
+else if (secondInput.length > firstInput.length) {
 
     // print the longest word
     console.log(`La parola più lunga è ${secondInput}`);
+    console.log(`La parola più corta è ${firstInput}`);
+}
+else {
+
+    // print if are equal
+    console.log('Le parole hanno la stessa lunghezza');
 }
