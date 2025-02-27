@@ -7,9 +7,11 @@ const secondInput = prompt('Inserisci un parola');
 
 if (firstInput.length > secondInput.length) {
 
+    // print the longest word
     console.log(`La parola più lunga è ${firstInput}`);
 }
 else {
 
+    // print the longest word
     console.log(`La parola più lunga è ${secondInput}`);
 }
