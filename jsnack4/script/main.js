@@ -7,7 +7,7 @@ const array = [];
 for (let i = 0; i < 6; i++) {
 
     let input = prompt('Inserisci un numero');
-    inputInt = parseInt(input);
+    let inputInt = parseInt(input);
     
     if (inputInt % 2 === 1) {
 
