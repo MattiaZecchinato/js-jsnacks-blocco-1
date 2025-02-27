@@ -4,7 +4,10 @@
 const firstInput = prompt('Inserisci un numero');
 const secondInput = prompt('Inserisci un numero');
 
-if (firstInput > secondInput) {
+const firstInputInt = parseInt(firstInput);
+const secondInputInt = parseInt(secondInput);
+
+if (firstInputInt > secondInputInt) {
 
     console.log(`Il numero maggiore è ${firstInput}`);
 }
