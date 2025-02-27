@@ -15,7 +15,12 @@ if (firstInputInt > secondInputInt) {
     // print the greater number
     console.log(`Il numero maggiore è ${firstInput}`);
 }
-else {
+else if (secondInputInt > firstInputInt) {
     // print the greater number
     console.log(`Il numero maggiore è ${secondInput}`);
+}
+else {
+
+    // print if are equal number
+    console.log('I numeri sono equivalenti');
 }
