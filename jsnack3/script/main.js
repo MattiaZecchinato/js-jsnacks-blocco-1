@@ -5,7 +5,7 @@ let count = 0;
 for (let i = 0; i < 10; i++) {
 
     let input = prompt('Inserisci un numero');
-    inputInt = parseInt(input);
+    let inputInt = parseInt(input);
     count += inputInt;
 }
 
