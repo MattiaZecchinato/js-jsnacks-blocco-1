@@ -12,9 +12,10 @@ const secondInputInt = parseInt(secondInput);
 
 if (firstInputInt > secondInputInt) {
 
+    // print the greater number
     console.log(`Il numero maggiore è ${firstInput}`);
 }
 else {
-
+    // print the greater number
     console.log(`Il numero maggiore è ${secondInput}`);
 }
